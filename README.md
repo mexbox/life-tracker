@@ -1,4 +1,4 @@
-# MexBos: project-1
+# Life Tracker
 
 <!-- A [SailsJS](http://sailsjs.org) boilerplate application that demonstrates a single page "Todos" app using the following libraries:
 
@@ -25,8 +25,8 @@ nenv local v6.9.1
 Clone boilerplate:
 
 ```
-git clone https://github.com/cckepple/project-1.git
-cd project-1
+git clone https://github.com/mexbox/life-tracker.git
+cd life-tracker
 ```
 
 Install prerequisites:
