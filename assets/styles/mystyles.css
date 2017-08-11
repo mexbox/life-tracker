@@ -1,0 +1,91 @@
+/*Background Anim*/
+#bg {
+	overflow: hidden;
+	height: 100vh;
+	color: #000;
+	/*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+	background: linear-gradient(-45deg, #EE7752, #8bd1f1, #fff, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+h4 {
+	font-family: 'Open Sans';
+	font-weight: 1000;
+	text-shadow: #fff 2px -1px 4px;
+
+}
+
+.tabBtn{
+	display: inline-block;
+	height: 100%;
+	width: 33.3333%;
+	font-size: 14px;
+	position: relative;
+	bottom: 2px;
+}
+
+
+blockquote {
+    position: relative;
+    margin: 0px 100px 0px 100px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+}
+blockquote:before, blockquote:after {
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    font-size: 40px;
+    line-height: 1;
+}
+blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    top: 0;
+    right: 0;
+    content: "\201D";
+}
