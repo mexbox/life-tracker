@@ -4,7 +4,7 @@
 	height: 100vh;
 	color: #000;
 	/*background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
-	background: linear-gradient(-45deg, #EE7752, #8bd1f1, #fff, #23D5AB);
+	background: linear-gradient(-45deg, #114b5f,#456990,#b8f2e6,#f45b69,#6b2737);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
